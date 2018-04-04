@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   	 <meta charset="utf-8">
+   	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	 <meta name="viewport" content="width=device-width, initial-scale=1">
+   	 <meta name="description" content="Portfolio Project">
+   	 <meta name="author" content="Mahdi Abdurrahman">
+
+   	 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+   	 <title>Simple Calculator Javascript</title>
+
+   	 <!-- Bootstrap -->
+   	 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+
+   	 <!-- Optional Bootstrap Themes -->
+  	 <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" >
+	
+  	 <!-- Optional Font-Awesome Fonts -->
+  	 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+
+  	 <!-- Optional Animations -->
+  	<link rel="stylesheet" type="text/css" href="animation/css/animate.css">
+ 	 <link rel="stylesheet" type="text/css" href="animation/css/animations.css">
+
+  	 <!-- Custom Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Image Icon -->
+    <link rel="icon" type="image/x-icon" href="img/calculator-image.ico" />
+	
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+   	 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   	 <!--[if lt IE 9]>
+     	 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+     	 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+   	 <![endif]-->
+
+  </head>
+  <body>
+    <div class='container'>
+        <div id='calculator'>
+
+            <!-- Calculator Title -->
+            <div id='title' class='text-center'>
+                <h5>Simple Calculator</h5>
+            </div>
+
+            <!-- Calculator Display -->
+            <div id='entry-box' class='text-right'>
+                <div id='history' class="display-expression">&nbsp;</div>
+                <div id='expression' class="display-expression">&nbsp;</div>
+                <div id='entry'>&nbsp;</div>
+            </div>
+
+            <!-- Calculator Buttons-->
+            <div id='buttons'>
+                <button id="additionButton" value='+'>+</button>
+                <button id="subtractButton" value='-'>-</button>
+                <button id="multiplyButton" value='*'>x</button>
+                <button id="divideButton" value='/'>&divide;</button>
+
+                <button id="sevenButton" class="button-number" value='7'>7</button>
+                <button id="eightButton" class="button-number" value='8'>8</button>
+                <button id="nineButton" class="button-number" value='9'>9</button>
+                <button id="clearButton" value='clr'>CL</button>
+
+                <button id="fourButton" class="button-number" value='4'>4</button>
+                <button id="fiveButton" class="button-number" value='5'>5</button>
+                <button id="sixButton" class="button-number" value='6'>6</button>
+                <button id="backspaceButton" value='bsp'><s>&lArr;</s></button>
+
+                <button id="oneButton" class="button-number" value='1'>1</button>
+                <button id="twoButton" class="button-number" value='2'>2</button>
+                <button id="threeButton" class="button-number" value='3'>3</button>
+                <button class='invisible'>N</button>
+
+                <button id="oppositeButton" value='opp'>&#xb1;</button>
+                <button id="zeroButton" class="button-number"value='0'>0</button>
+                <button id="decimalButton" value='.'>.</button>
+                <button id="equalButton" value='='>=</button>
+            </div>
+            <!-- end of Calculator buttons -->
+        </div>
+        <!-- end calculator -->
+    </div>
+    <!-- end container -->
+
+	<!-- JavaScript files should be linked at the bottom of the page -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	
+    <!-- Include latest complied plugins and minified JavaScript(below), or individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	<!-- Custom JavaScript -->
+	<script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
